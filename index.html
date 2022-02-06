@@ -7,9 +7,48 @@
     <title>StyliBook</title>
     <link rel="stylesheet" href="https://stylishbookui.netlify.app/Components/stylishbook.css" />
     <link rel="stylesheet" href="CSS/stylibook.css" />
-
 </head>
 <body>
-    
+    <div class="container">
+        <div class="navbar__container--plain padding--medium">
+            <div class="navbar__heading-container">
+                <div class="container__flex--center">
+                    <div class="navbar__logo">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="navbar__title text--medium">
+                        StyliBook
+                    </div>
+                </div>
+                <div class="navbar__menu">
+                        <i class="fas fa-bars icon__menu"></i>
+                        <i class="fas fa-times icon__times hide"></i>
+                </div>
+            </div>
+            <ul class="navbar__list-container text--medium margin-top--small">
+                <li class="navbar__item">
+                    <div class="search__container">
+                        <i class="fas fa-search padding--small text--medium"></i>
+                        <input class="search__input" placeholder="Search" type="text" />
+                    </div>
+
+                </li>
+                <li class="navbar__item">
+                    <i class="fas fa-user"></i>
+                    <a href="../index.html">Profile</a>
+                </li>
+                <li class="navbar__item">
+                    <i class="fas fa-heart"></i>
+                    <a href="#">Wishlist</a>
+                </li>
+                <li class="navbar__item">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#">Cart</a>
+                </li>
+                <button class="btn btn--secondary btn--icon padding--medium margin-top--small moon hide"><i class="fas fa-moon text--medium"></i><span>Dark Mode</span></button>
+                <button class="btn btn--secondary btn--icon padding--medium margin-top--small sun hide"><i class="fas fa-sun text--medium"></i><span>Light Mode</span></button>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
