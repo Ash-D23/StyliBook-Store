@@ -1,0 +1,13 @@
+.product-main{
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+}
+
+@media only screen and (max-width: 600px){
+    .product-main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+}
