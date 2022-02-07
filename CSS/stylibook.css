@@ -1,4 +1,5 @@
 @import "navbar.css";
+@import "product-listing.css";
 
 #shop{
     background-image: url('../Images/book.jpg');
