@@ -1,6 +1,7 @@
 @import "navbar.css";
 @import "product-listing.css";
 @import "auth.css";
+
 #shop{
     background-image: url('../Images/book.jpg');
     background-repeat: no-repeat;
