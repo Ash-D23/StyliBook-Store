@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyliBook</title>
+    <link rel="stylesheet" href="https://stylishbookui.netlify.app/Components/stylishbook.css" />
+    <link rel="stylesheet" href="../CSS/stylibook.css" />
+
+</head>
+<body>
+        <header class="navbar__container--plain padding--medium">
+            <div class="navbar__heading-container">
+                <div class="container__flex--center">
+                    <div class="navbar__logo">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="navbar__title text--medium">
+                        StyliBook
+                    </div>
+                </div>
+            </div>
+            <div class="navbar__menu padding--small">
+                <i class="fas fa-bars icon__menu"></i>
+            </div>
+            <div class="navbar__item--cart padding--small">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <ul class="navbar__list-container text--medium margin-top--small">
+                <li class="navbar__item">
+                    <div class="search__container">
+                        <i class="fas fa-search padding--small text--medium"></i>
+                        <input class="search__input" placeholder="Search" type="text" />
+                    </div>
+    
+                </li>
+                <li class="navbar__item">
+                    <i class="fas fa-user"></i>
+                    <a href="../index.html">Profile</a>
+                </li>
+                <li class="navbar__item">
+                    <i class="fas fa-heart"></i>
+                    <a href="#">Wishlist</a>
+                </li>
+                <li class="navbar__item">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#">Cart</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="drawer__container padding--medium">
+            <div class="drawer__heading container__flex--center">
+                <div class="navbar__logo margin-top--small">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="navbar__title text--medium">
+                    StyliBook
+                </div>
+                <div class="navbar__logo drawer__clear margin-top--small">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="drawer__navigation">
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-home"></i>
+                    <p>Home</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-shopping-bag"></i>
+                    <p>Products</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-heart"></i>
+                    <p>Wishlist</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>Cart</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-user"></i>
+                    <p>Profile</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="auth__container">
+            <div class="auth__contents border--grey">
+                <h3 class="text--center margin-tb--medium">Sign Up</h3>
+                <div class="auth__section">
+                    <label class="auth-label form-label--required text--medium">Enter Email</label>
+                    <input type="text" class="form-field margin-tb--small" placeholder="abc@example.com"/>
+                </div>
+                <div class="auth__section">
+                    <label class="auth-label form-label--required text--medium">Enter Password</label>
+                    <input type="password" class="form-field margin-tb--small" placeholder="Password"/>
+                </div>
+                <div class="auth__description">
+                    <input type="checkbox" class="form-checkbox" /> 
+                    <span>I accept all Terms and Conditions </span>
+                </div>
+                <button class="btn btn-auth margin-bottom--medium">Sign Up</button>
+
+                <a class="auth__link margin-tb--medium" href="">Already have an account</a>
+            </div>
+        </div>
+
+        <footer class="footer__container padding--medium">
+            <div class="margin-tb--large">
+                <p class="text--large">Let's Get In Touch</p>
+            </div>
+            <div class="footer__icons">
+                <a href="https://github.com/Ash-D23/"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/Ashutosh_devtlk"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ashutosh18k23/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="margin-tb--large">
+                <p class="text--medium">Copyrights © 2022 StyliBook Store</p>
+            </div>
+        </footer>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
