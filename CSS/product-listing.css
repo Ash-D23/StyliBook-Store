@@ -5,6 +5,11 @@
 
 .products{
     overflow: hidden;
+    padding: var(--margin-medium)
+}
+
+.card{
+    margin: var(--margin-small);
 }
 
 .filters{
@@ -62,5 +67,39 @@
         justify-content: center;
         background-color: var(--clr-grey);
         padding: var(--padding-medium)
+    }
+
+    .card__actions .view{
+        display: none;
+    }
+
+    .card__actions .remove{
+        font-size: 1.25rem;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .card__actions--buttons {
+        width: 100%;
+    }
+
+    .card__actions .cart{
+       width: 100%;
+       margin-right: 0;
+       font-size: 1.25rem;
+    }
+
+    .card{
+        width: 45%;
+        margin: var(--margin-small);
+    }
+
+    .products{
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .container--90{
+        max-width: 100%;
     }
 }
