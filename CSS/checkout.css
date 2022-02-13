@@ -57,7 +57,8 @@
     }
 
     .card--horizontal .card__image--container{
-        display: none;
+        width: 100%;
+        margin: 0
     }
 
     .card--horizontal{
@@ -68,4 +69,11 @@
         width: 100%;
     }
 
+    .checkout__products .btn{
+        width: 100%;
+    }
+
+    .checkout__products .card--horizontal{
+        flex-direction: column;
+    }
 }
