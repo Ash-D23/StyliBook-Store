@@ -89,7 +89,7 @@
        font-size: 1.25rem;
     }
 
-    .card{
+    .product--cards .card{
         width: 45%;
         margin: var(--margin-small);
     }
@@ -101,5 +101,9 @@
 
     .container--90{
         max-width: 100%;
+    }
+
+    .card__actions--icons .remove{
+        display: none;
     }
 }
