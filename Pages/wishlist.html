@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../CSS/stylibook.css" />
 </head>
 <body>
-        <header class="navbar__container--plain padding--medium">
+    <header>
+        <div class="navbar__container--plain padding--medium">
             <div class="navbar__heading-container">
                 <div class="container__flex--center">
                     <div class="navbar__logo">
@@ -20,6 +21,14 @@
                     </div>
                 </div>
             </div>
+            <ul class="navbar__list-container text--medium margin-top--small">
+                <li class="navbar__item">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#">Shop</a>
+                </li>
+            </ul>
             <div class="navbar__menu padding--small">
                 <i class="fas fa-bars icon__menu"></i>
             </div>
@@ -36,18 +45,23 @@
                 </li>
                 <li class="navbar__item">
                     <i class="fas fa-user"></i>
-                    <a href="../index.html">Profile</a>
+                    <a class="icon__text" href="../index.html">Profile</a>
                 </li>
                 <li class="navbar__item">
                     <i class="fas fa-heart"></i>
-                    <a href="#">Wishlist</a>
+                    <a class="icon__text" href="#">Wishlist</a>
                 </li>
                 <li class="navbar__item">
                     <i class="fas fa-shopping-cart"></i>
-                    <a href="#">Cart</a>
+                    <a class="icon__text" href="#">Cart</a>
                 </li>
             </ul>
-        </header>
+        </div>
+        <div class="mobile__search__container">
+            <i class="fas fa-search padding--small text--medium"></i>
+            <input class="search__input" placeholder="Search" type="text" />
+        </div>
+    </header>
 
         <div class="drawer__container padding--medium">
             <div class="drawer__heading container__flex--center">

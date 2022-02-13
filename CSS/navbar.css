@@ -14,8 +14,12 @@
     justify-content: center;
 }
 
-.navbar__item a{
+.navbar__item .icon__text{
     font-size: 1.25rem;
+    color: var(--clr-dark-grey)
+}
+
+.navbar__item a{
     color: var(--clr-dark-grey)
 }
 

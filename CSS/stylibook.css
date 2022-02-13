@@ -78,6 +78,10 @@
     margin-left: var(--margin-medium);
 }
 
+.mobile__search__container{
+    display: none;
+}
+
 @media only screen and (max-width: 600px){
     
     .shop__description{
@@ -90,5 +94,15 @@
 
     .drawer__position-right{
         left: 0;
+    }
+
+    .mobile__search__container{
+        display: flex;
+        align-items: center;
+        padding: var(--padding-small)
+    }
+
+    .mobile__search__container .search__input{
+        flex-grow: 1;
     }
 }
