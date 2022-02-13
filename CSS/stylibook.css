@@ -102,7 +102,8 @@
         padding: var(--padding-small)
     }
 
-    .mobile__search__container .search__input{
+    .mobile__search__container{
         flex-grow: 1;
+        border-bottom: 1px solid var(--clr-dark-grey);
     }
 }
