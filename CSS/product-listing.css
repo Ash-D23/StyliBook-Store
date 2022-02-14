@@ -54,6 +54,7 @@
     .filters{
         display: none;
         position: relative;
+        height: auto;
     }
 
     .display-filters{
