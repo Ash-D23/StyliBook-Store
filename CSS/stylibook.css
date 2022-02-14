@@ -10,11 +10,18 @@
     height: 30vh;
 }
 
+.category--container{
+    max-width: 80%;
+    padding: var(--padding-large);
+    margin: auto;
+}
+
 .category--card{
     position: relative;
     max-height: 25rem;
     max-width: 25rem;
     cursor: pointer;
+    margin: var(--margin-medium);
 }
 
 .category--title{
@@ -106,5 +113,20 @@
     .mobile__search__container{
         flex-grow: 1;
         border-bottom: 1px solid var(--clr-dark-grey);
+    }
+
+    .category--container{
+        max-width: 100%;
+        padding: var(--padding-small);
+    }
+
+    .category--card{
+        max-height: 15rem;
+        max-width: 45%;
+        margin: var(--margin-small)
+    }
+
+    .category--title{
+        font-size: var(--text-medium);
     }
 }
