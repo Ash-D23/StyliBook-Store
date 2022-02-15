@@ -8,8 +8,17 @@
     padding: var(--margin-medium)
 }
 
-.card{
-    margin: var(--margin-small);
+.product--cards .card{
+    width: 25rem;
+    margin: var(--margin-medium);
+}
+
+.product--cards .card__actions {
+    width: 100%;
+}
+
+.product--cards .btn {
+    width: 100%;
 }
 
 .filters{
