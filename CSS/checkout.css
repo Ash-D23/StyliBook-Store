@@ -45,6 +45,14 @@
     margin: var(--margin-small) 0
 }
 
+.checkout__products .card__actions--buttons .btn{
+    width: 100%;
+}
+
+.checkout__products .card__actions{
+    margin: var(--margin-large) 0;
+}
+
 @media only screen and (max-width: 600px){
 
     .checkout{
