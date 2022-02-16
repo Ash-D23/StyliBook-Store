@@ -17,7 +17,7 @@
 }
 
 .card--horizontal{
-    max-width: 75%;
+    max-width: 80%;
 }
 
 .checkout__products .card__actions--buttons{
@@ -77,7 +77,7 @@
     }
 
     .card--horizontal{
-        width: 75%;
+        width: 90%;
     }
 
     .card--horizontal .card__body {
