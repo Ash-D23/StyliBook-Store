@@ -13,7 +13,7 @@
     margin: var(--margin-medium);
 }
 
-.product--cards .card__actions {
+.product--cards .card__actions,  .product--cards .card__actions--buttons{
     width: 100%;
 }
 
@@ -52,6 +52,13 @@
 
 .filter__view{
     display: none;
+}
+
+@media only screen and (max-width: 800px){
+    .product--cards .card{
+        width: 20rem;
+        margin: var(--margin-medium);
+    }
 }
 
 @media only screen and (max-width: 600px){
