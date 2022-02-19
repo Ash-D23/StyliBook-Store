@@ -4,9 +4,9 @@
 @import "checkout.css";
 
 #shop{
-    background-image: url('../Images/book.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab); 
     height: 30vh;
 }
 
@@ -142,7 +142,7 @@
 
     .category--card{
         max-height: 15rem;
-        max-width: 45%;
+        width: calc(50% - 1rem);
         margin: var(--margin-small)
     }
 
