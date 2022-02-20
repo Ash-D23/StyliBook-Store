@@ -20,6 +20,7 @@
     position: relative;
     max-height: 25rem;
     max-width: 25rem;
+    overflow: hidden;
     cursor: pointer;
     margin: var(--margin-medium);
 }
