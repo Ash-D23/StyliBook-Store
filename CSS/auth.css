@@ -54,3 +54,16 @@
 .form-checkbox{
     margin-left: 0;
 }
+
+.logout--container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth__btn--container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
