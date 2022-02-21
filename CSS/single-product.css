@@ -17,6 +17,7 @@
 
 .product__image--container{
     width: 40%;
+    padding: var(--padding-large);
 }
 
 .product__image{
@@ -28,6 +29,7 @@
 .product__description{
     width: 60%;
     height: 100%;
+    padding: var(--padding-large);
 }
 
 .user__profile--container{
@@ -49,6 +51,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .review__input{
@@ -73,6 +76,10 @@
 
 .para-rating__container i{
     font-size: 1.4rem;
+}
+
+.review--container{
+    padding: var(--padding-large);
 }
 
 @media only screen and (max-width: 1000px){
@@ -104,15 +111,25 @@
 
     .product__image--container{
         width: 100%;
+        padding: var(--padding-medium);
     }
 
     .product__description{
         width: 100%;
+        padding: var(--padding-medium);
     }
 
     .user__profile--container{
         min-width: 5rem;
         min-height: 5rem;
+    }
+
+    .review--container{
+        padding: var(--padding-medium);
+    }
+
+    .review__input{
+     margin-bottom: var(--margin-small);
     }
     
 }
