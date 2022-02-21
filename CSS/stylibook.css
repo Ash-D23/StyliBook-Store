@@ -2,6 +2,7 @@
 @import "product-listing.css";
 @import "auth.css";
 @import "checkout.css";
+@import "single-product.css";
 
 #shop{
     background: #8e9eab;
