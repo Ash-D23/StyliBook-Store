@@ -59,6 +59,7 @@
     font-size: var(--text-medium);
     border: none;
     border-bottom: 1px solid var(--clr-grey);
+    width: 50%;
 }
 
 .review__input:focus{
@@ -101,6 +102,10 @@
         max-width: 100%;
     }
 
+    .review__input{
+        width: 70%;
+    }
+
 }
 
 @media only screen and (max-width: 600px){
@@ -126,10 +131,6 @@
 
     .review--container{
         padding: var(--padding-medium);
-    }
-
-    .review__input{
-     margin-bottom: var(--margin-small);
     }
     
 }
